@@ -25,10 +25,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzc-cl-Y2J">
-                                <rect key="frame" x="69" y="429" width="57" height="35"/>
+                                <rect key="frame" x="54" y="429" width="87" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Plus"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Addition"/>
                                 <connections>
                                     <action selector="touched:" destination="BYZ-38-t0r" eventType="touchDown" id="KA7-wW-ELg"/>
                                 </connections>
@@ -46,29 +46,29 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eyg-rf-Ugk">
-                                <rect key="frame" x="242" y="429" width="70" height="35"/>
+                                <rect key="frame" x="221" y="429" width="113" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" name="AccentColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Minus"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Subtraction"/>
                                 <connections>
                                     <action selector="minus:" destination="BYZ-38-t0r" eventType="touchDown" id="HOA-Ns-O8W"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlv-ys-CYV">
-                                <rect key="frame" x="62" y="496" width="72" height="35"/>
+                                <rect key="frame" x="56" y="496" width="84" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Divide"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Division"/>
                                 <connections>
                                     <action selector="divide:" destination="BYZ-38-t0r" eventType="touchDown" id="gJR-m3-tEA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czH-bw-e8g">
-                                <rect key="frame" x="235" y="496" width="85" height="35"/>
+                                <rect key="frame" x="215" y="496" width="126" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Multiple"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Multiplication"/>
                                 <connections>
                                     <action selector="multiple:" destination="BYZ-38-t0r" eventType="touchDown" id="EqU-7a-rZ0"/>
                                 </connections>
